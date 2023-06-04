@@ -13,6 +13,6 @@ Using the National Environmental Public Health Tracking Network and the Arizona 
 * Which counties are heavily impacted by HRI?
 
 ## Data Sources
-Centers for Disease Control and Prevention. National Environmental Public Health Tracking Network. (n.d.) Web API. www.cdc.gov/ephtracking. 
-Arizona Department of Health Services. Arizona Environmental Public Health Tracking Network. (n.d.) Web. Accessed: June 01, 2023. www.azdhs.gov/epht.
+* Centers for Disease Control and Prevention. National Environmental Public Health Tracking Network. (n.d.) Web API. www.cdc.gov/ephtracking. 
+* Arizona Department of Health Services. Arizona Environmental Public Health Tracking Network. (n.d.) Web. Accessed: June 01, 2023. www.azdhs.gov/epht.
 
