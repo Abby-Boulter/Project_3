@@ -1,6 +1,12 @@
 //Array to hold all AZ counties info
 azCounties = [];
 
+//read geojson (reference https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/)
+fetch('county_shape.geojson')
+  .then((response) => response.json())
+  .then((geojson) => console.log(geojson));
+
+//loop like mod 15 day 2 activity 1
 
 //Arrays to hold county info 
 apache =  [];
