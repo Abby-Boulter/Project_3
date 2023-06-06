@@ -30,7 +30,7 @@ HTML5
 CSS3
 Javascript
 
-### Requirements
+## Requirements
 1.	Your visualization must include a Python Flask-powered API, HTML/CSS, JavaScript, and at least one database (SQL, MongoDB, SQLite, etc.).
 2.	Your project should fall into one of the following three tracks:
     * A combination of web scraping and Leaflet or Plotly
