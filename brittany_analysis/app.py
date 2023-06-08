@@ -8,26 +8,24 @@ from flask import Flask, jsonify, render_template
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///data/hri.sqlite")
+engine = create_engine("sqlite:///resources/ERD.sqlite")
 
 # # reflect an existing database into a new model
-# Base = automap_base()
+Base = automap_base()
 # # reflect the tables
-# Base.prepare(autoload_with=engine)
+Base.prepare(autoload_with=engine)
 
 # # Save reference to the table
-# County= Base.classes.county
+County= Base.classes.county
 
 #################################################
 # Flask Setup
 #################################################
 app = Flask(__name__)
 
-
 #################################################
 # Flask Routes
 #################################################
-
 
 @app.route("/")
 def dashboard():
@@ -36,14 +34,6 @@ def dashboard():
     
     #session = Session(engine)
     return render_template("index.html")
-
-
-
-
-
-
-
-
 
 
 
