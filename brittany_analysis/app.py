@@ -29,6 +29,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def dashboard():
+    return(
+        f"Available Routes:<br/> "
+        f"/api/v1.0/erd<br/>"
+    )
  
     #Create our dashboard
     
