@@ -1,0 +1,166 @@
+County,Year,Extreme Heat Days
+Apache,2011,19
+Apache,2012,19
+Apache,2013,18
+Apache,2014,5
+Apache,2015,18
+Apache,2016,16
+Apache,2017,16
+Apache,2018,31
+Apache,2019,23
+Apache,2020,38
+Apache,2021,24
+Cochise,2011,34
+Cochise,2012,25
+Cochise,2013,19
+Cochise,2014,4
+Cochise,2015,14
+Cochise,2016,19
+Cochise,2017,17
+Cochise,2018,18
+Cochise,2019,26
+Cochise,2020,35
+Cochise,2021,16
+Coconino,2011,17
+Coconino,2012,20
+Coconino,2013,16
+Coconino,2014,4
+Coconino,2015,19
+Coconino,2016,17
+Coconino,2017,16
+Coconino,2018,28
+Coconino,2019,22
+Coconino,2020,36
+Coconino,2021,22
+Gila,2011,30
+Gila,2012,27
+Gila,2013,16
+Gila,2014,3
+Gila,2015,15
+Gila,2016,22
+Gila,2017,14
+Gila,2018,24
+Gila,2019,31
+Gila,2020,48
+Gila,2021,22
+Graham,2011,28
+Graham,2012,22
+Graham,2013,14
+Graham,2014,3
+Graham,2015,13
+Graham,2016,19
+Graham,2017,15
+Graham,2018,22
+Graham,2019,24
+Graham,2020,48
+Graham,2021,16
+Greenlee,2011,25
+Greenlee,2012,22
+Greenlee,2013,17
+Greenlee,2014,4
+Greenlee,2015,14
+Greenlee,2016,18
+Greenlee,2017,17
+Greenlee,2018,19
+Greenlee,2019,24
+Greenlee,2020,46
+Greenlee,2021,16
+La Paz,2011,22
+La Paz,2012,15
+La Paz,2013,13
+La Paz,2014,3
+La Paz,2015,20
+La Paz,2016,27
+La Paz,2017,22
+La Paz,2018,19
+La Paz,2019,22
+La Paz,2020,39
+La Paz,2021,23
+Maricopa,2011,28
+Maricopa,2012,21
+Maricopa,2013,13
+Maricopa,2014,2
+Maricopa,2015,16
+Maricopa,2016,23
+Maricopa,2017,19
+Maricopa,2018,19
+Maricopa,2019,26
+Maricopa,2020,45
+Maricopa,2021,22
+Mohave,2011,18
+Mohave,2012,14
+Mohave,2013,18
+Mohave,2014,4
+Mohave,2015,15
+Mohave,2016,25
+Mohave,2017,22
+Mohave,2018,22
+Mohave,2019,22
+Mohave,2020,36
+Mohave,2021,26
+Navajo,2011,21
+Navajo,2012,20
+Navajo,2013,16
+Navajo,2014,3
+Navajo,2015,19
+Navajo,2016,20
+Navajo,2017,15
+Navajo,2018,29
+Navajo,2019,27
+Navajo,2020,41
+Navajo,2021,21
+Pima,2011,32
+Pima,2012,27
+Pima,2013,14
+Pima,2014,4
+Pima,2015,13
+Pima,2016,21
+Pima,2017,17
+Pima,2018,17
+Pima,2019,28
+Pima,2020,50
+Pima,2021,16
+Pinal,2011,31
+Pinal,2012,24
+Pinal,2013,13
+Pinal,2014,2
+Pinal,2015,15
+Pinal,2016,26
+Pinal,2017,16
+Pinal,2018,21
+Pinal,2019,26
+Pinal,2020,49
+Pinal,2021,21
+Santa Cruz,2011,37
+Santa Cruz,2012,29
+Santa Cruz,2013,17
+Santa Cruz,2014,6
+Santa Cruz,2015,12
+Santa Cruz,2016,21
+Santa Cruz,2017,15
+Santa Cruz,2018,17
+Santa Cruz,2019,24
+Santa Cruz,2020,33
+Santa Cruz,2021,14
+Yavapai,2011,24
+Yavapai,2012,27
+Yavapai,2013,19
+Yavapai,2014,3
+Yavapai,2015,17
+Yavapai,2016,22
+Yavapai,2017,16
+Yavapai,2018,19
+Yavapai,2019,26
+Yavapai,2020,35
+Yavapai,2021,22
+Yuma,2011,25
+Yuma,2012,17
+Yuma,2013,12
+Yuma,2014,6
+Yuma,2015,22
+Yuma,2016,24
+Yuma,2017,21
+Yuma,2018,19
+Yuma,2019,22
+Yuma,2020,36
+Yuma,2021,24

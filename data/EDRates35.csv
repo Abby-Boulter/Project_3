@@ -1,0 +1,166 @@
+State,County,Year,Age Adjusted Rate ED
+04,Apache,2011,22.2
+04,Apache,2012,25.9
+04,Apache,2013,21.7
+04,Apache,2014,17.5
+04,Apache,2015,23.1
+04,Apache,2016,23.0
+04,Apache,2017,19.4
+04,Apache,2018,21.3
+04,Apache,2019,25.4
+04,Apache,2020,19.3
+04,Apache,2021,24.0
+04,Cochise,2011,48.6
+04,Cochise,2012,45.0
+04,Cochise,2013,42.8
+04,Cochise,2014,39.8
+04,Cochise,2015,37.5
+04,Cochise,2016,37.1
+04,Cochise,2017,38.1
+04,Cochise,2018,39.1
+04,Cochise,2019,36.8
+04,Cochise,2020,30.8
+04,Cochise,2021,31.8
+04,Coconino,2011,19.4
+04,Coconino,2012,18.0
+04,Coconino,2013,17.1
+04,Coconino,2014,15.7
+04,Coconino,2015,18.8
+04,Coconino,2016,19.7
+04,Coconino,2017,17.7
+04,Coconino,2018,18.6
+04,Coconino,2019,16.1
+04,Coconino,2020,15.9
+04,Coconino,2021,16.9
+04,Gila,2011,44.4
+04,Gila,2012,42.8
+04,Gila,2013,39.6
+04,Gila,2014,38.9
+04,Gila,2015,34.3
+04,Gila,2016,37.6
+04,Gila,2017,44.3
+04,Gila,2018,36.3
+04,Gila,2019,43.3
+04,Gila,2020,40.4
+04,Gila,2021,44.5
+04,Graham,2011,41.3
+04,Graham,2012,40.6
+04,Graham,2013,28.5
+04,Graham,2014,37.9
+04,Graham,2015,45.5
+04,Graham,2016,37.0
+04,Graham,2017,54.8
+04,Graham,2018,43.2
+04,Graham,2019,33.2
+04,Graham,2020,43.5
+04,Graham,2021,29.2
+04,Greenlee,2011,43.7
+04,Greenlee,2012,63.6
+04,Greenlee,2013,52.3
+04,Greenlee,2014,24.8
+04,Greenlee,2015,43.8
+04,Greenlee,2016,46.7
+04,Greenlee,2017,54.0
+04,Greenlee,2018,49.0
+04,Greenlee,2019,36.6
+04,Greenlee,2020,47.3
+04,Greenlee,2021,41.2
+04,La Paz,2011,37.9
+04,La Paz,2012,41.2
+04,La Paz,2013,25.8
+04,La Paz,2014,47.9
+04,La Paz,2015,32.7
+04,La Paz,2016,30.5
+04,La Paz,2017,23.4
+04,La Paz,2018,24.2
+04,La Paz,2019,45.6
+04,La Paz,2020,45.8
+04,La Paz,2021,44.2
+04,Maricopa,2011,25.8
+04,Maricopa,2012,25.4
+04,Maricopa,2013,24.4
+04,Maricopa,2014,24.3
+04,Maricopa,2015,25.3
+04,Maricopa,2016,25.9
+04,Maricopa,2017,26.1
+04,Maricopa,2018,23.6
+04,Maricopa,2019,24.0
+04,Maricopa,2020,20.6
+04,Maricopa,2021,21.0
+04,Mohave,2011,32.1
+04,Mohave,2012,33.4
+04,Mohave,2013,31.7
+04,Mohave,2014,30.3
+04,Mohave,2015,34.5
+04,Mohave,2016,34.1
+04,Mohave,2017,33.4
+04,Mohave,2018,39.1
+04,Mohave,2019,38.9
+04,Mohave,2020,38.2
+04,Mohave,2021,34.6
+04,Navajo,2011,28.2
+04,Navajo,2012,34.9
+04,Navajo,2013,32.2
+04,Navajo,2014,30.8
+04,Navajo,2015,32.2
+04,Navajo,2016,33.1
+04,Navajo,2017,34.0
+04,Navajo,2018,28.9
+04,Navajo,2019,29.6
+04,Navajo,2020,31.1
+04,Navajo,2021,29.0
+04,Pima,2011,26.6
+04,Pima,2012,24.8
+04,Pima,2013,23.4
+04,Pima,2014,22.4
+04,Pima,2015,25.0
+04,Pima,2016,25.7
+04,Pima,2017,24.8
+04,Pima,2018,26.0
+04,Pima,2019,25.1
+04,Pima,2020,20.4
+04,Pima,2021,21.7
+04,Pinal,2011,28.4
+04,Pinal,2012,27.5
+04,Pinal,2013,25.8
+04,Pinal,2014,25.9
+04,Pinal,2015,29.2
+04,Pinal,2016,27.4
+04,Pinal,2017,27.3
+04,Pinal,2018,27.7
+04,Pinal,2019,27.8
+04,Pinal,2020,24.3
+04,Pinal,2021,25.8
+04,Santa Cruz,2011,22.8
+04,Santa Cruz,2012,25.6
+04,Santa Cruz,2013,26.9
+04,Santa Cruz,2014,25.3
+04,Santa Cruz,2015,26.3
+04,Santa Cruz,2016,24.9
+04,Santa Cruz,2017,23.9
+04,Santa Cruz,2018,26.7
+04,Santa Cruz,2019,23.7
+04,Santa Cruz,2020,26.0
+04,Santa Cruz,2021,22.8
+04,Yavapai,2011,25.4
+04,Yavapai,2012,29.1
+04,Yavapai,2013,25.2
+04,Yavapai,2014,26.1
+04,Yavapai,2015,27.7
+04,Yavapai,2016,27.6
+04,Yavapai,2017,27.7
+04,Yavapai,2018,27.8
+04,Yavapai,2019,29.3
+04,Yavapai,2020,24.5
+04,Yavapai,2021,24.5
+04,Yuma,2011,30.4
+04,Yuma,2012,28.4
+04,Yuma,2013,27.9
+04,Yuma,2014,32.0
+04,Yuma,2015,35.1
+04,Yuma,2016,31.7
+04,Yuma,2017,34.4
+04,Yuma,2018,34.3
+04,Yuma,2019,28.0
+04,Yuma,2020,29.8
+04,Yuma,2021,28.8
