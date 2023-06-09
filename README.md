@@ -9,13 +9,15 @@ This project was a part of the University of Arizona Data Analaysis Bootcamp (20
 * [Noelle](https://github.com/noellemtz)
 
 ## Overview
-Within the United States, 700 heat-related deaths occur yearly. These deaths are preventable, and we can decrease these numbers by spreading awareness. Our team aims to provide a dashboard linking health data to clear visualizations that the public can use. Using the Arizona Department of Health Services Environmental Health Tracking data, we created a dashboard to provide public acccess to heat-related illness data. We examined the relations among heat-related illness ED visits throughout the past decade, high daily temperatures, social vulnerability index, and other possibilities derived from the data.
+Within the United States, 700 heat-related deaths occur yearly. These deaths are preventable, and we can decrease these numbers by spreading awareness. Our team aims to provide a dashboard linking health data to clear visualizations that the public can use. Using the CDC's National Environmental Public Health Tracking Network data API and requesting data from the Arizona Department of Health Services Environmental Health Tracking data, we created a dashboard to provide public acccess to heat-related illness data. We examined the relations among heat-related illness ED visits throughout the past decade, high daily temperatures, social vulnerability index, and other possibilities derived from the data.
 
 ## Deployed Version
 [site](url)
 
 ## Data Sources
 Arizona Department of Health Services. Arizona Environmental Public Health Tracking Network. (n.d.) Web. Accessed: June 01, 2023. www.azdhs.gov/epht.
+
+Centers for Disease Control and Prevention. National Environmental Public Health Tracking Network. (n.d.) Web API. www.cdc.gov/ephtracking. 
 
 ## Key Learnings
 * How to communicate and work efficiently within a team.
