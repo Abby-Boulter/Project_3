@@ -1,4 +1,4 @@
-county,year,ed_rate,hosp_rate,SVI
+county,year,ed_rate,hosp_rate,vul_rate
 COCHISE,2014,18.16,4.81,0.906
 GILA,2014,21.05,0.0,0.882
 MARICOPA,2014,24.46,6.04,0.669
