@@ -93,3 +93,10 @@ def start_end_route(start_date, end_date):
         return jsonify(start_end_stats)
     else:
         return jsonify({"error": f"Date(s) not found, invalid date range or dates not formatted correctly."}), 404
+    
+
+
+
+
+
+    
