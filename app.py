@@ -17,7 +17,7 @@ Base.prepare(autoload_with=engine)
 
 #Save reference to the table
 
-ext_heat_days = Base.classes.extreme_heat_days
+heat_days = Base.classes.extreme_heat_days
 ed_visit_35 = Base.classes.ed_visit_35
 
 #################################################
@@ -62,13 +62,13 @@ def dashboard():
     return jsonify(all_ed_35)
 
 @app.route("/extheatdays") # no route because this should be homepage
-def dashboard():
+def extreme():
     session = Session(engine)
     
 ## visualizations
 
     ## query county ed-rates for all years from SQLite database
-    results_ext_heat_days = session.query(ext_heat_days.county, ext_heat_days.year, ext_heat_days.ext_heat_days).order_by(ext_heat_days.year.asc()).all()
+    results_ext_heat_days = session.query(heat_days.county, heat_days.year, heat_days.ext_heat_days).order_by(heat_days.year.asc()).all()
 
     session.close()
 
