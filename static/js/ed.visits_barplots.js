@@ -1,5 +1,6 @@
 // 1.	Get your dataset: 
-var results_ed_visit_35 = 'http://127.0.0.1:5000/edvisit'
+var results_ed_visit_35 = "http://127.0.0.1:5000/edvisit";
+
 
 // see data in console 
   console.log(results_ed_visit_35);
@@ -14,9 +15,10 @@ var years = results_ed_visit_35.map(function(d) { return d.year;});
 var data = [
   {
     x: years,
-    y: results_ed_visit_35,
+    y: values,
     type: 'bar'
   }
 ];
 
 Plotly.newPlot('myDiv', data);
+
