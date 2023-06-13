@@ -96,9 +96,9 @@ def hri():
 # sliders = [dict(active=0, pad={"t": 1}, steps=steps)]
 
 
-@app.route("/test")
+@app.route("/countiesjson")
 def test():
-    with open('../data/arizona-with-county-boundaries_1085.geojson','r') as gdata:
+    with open('data/arizona-with-county-boundaries_1085.geojson','r') as gdata:
         geojson = json.load(gdata)
         print(geojson)
 

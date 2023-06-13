@@ -56,10 +56,32 @@ def dashboard():
         ed_dict = {}
         ed_dict["county"] = county
         ed_dict["year"] = year
-        ed_dict["ed_rate"] = ed_rate_35
+        ed_dict["value"] = ed_rate_35
         all_ed_35.append(ed_dict)
     
     return jsonify(all_ed_35)
+
+@app.route("/extheatdays") # no route because this should be homepage
+def dashboard():
+    session = Session(engine)
+    
+## visualizations
+
+    ## query county ed-rates for all years from SQLite database
+    results_ext_heat_days = session.query(ext_heat_days.county, ext_heat_days.year, ext_heat_days.ext_heat_days).order_by(ext_heat_days.year.asc()).all()
+
+    session.close()
+
+        # Create a dictionary from the row data and append to a list of all_passengers
+    all_ext_heat = []
+    for county, year, ext_heat_days in results_ext_heat_days:
+        ext_dict = {}
+        ext_dict["county"] = county
+        ext_dict["year"] = year
+        ext_dict["value"] = ext_heat_days
+        all_ext_heat.append(ext_dict)
+    
+    return jsonify(all_ext_heat)
 
 @app.route("/countiesjson")
 def test():
