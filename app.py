@@ -59,10 +59,10 @@ def dashboard():
         ed_dict["value"] = ed_rate_35
         all_ed_35.append(ed_dict)
     
-    return jsonify(all_ed_35)
     session.close()
 
     return render_template("ed35.html", all_ed_35=all_ed_35)
+
 @app.route("/extheatdays") # no route because this should be homepage
 def extreme():
     session = Session(engine)
@@ -83,8 +83,6 @@ def extreme():
         ext_dict["value"] = ext_heat_days
         all_ext_heat.append(ext_dict)
     
-    return jsonify(all_ext_heat)
-
     session.close()
 
     return render_template("ehd.html", all_ehd=all_ehd)
@@ -94,8 +92,8 @@ def test():
   with open('data/arizona-with-county-boundaries_1085.geojson','r') as gdata:
     geojson = json.load(gdata)
     print(geojson)
-    return geojson
 
+    return render_template("countiesjson.html")
 
 
 if __name__ == "__main__":
