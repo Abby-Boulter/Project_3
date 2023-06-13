@@ -11,11 +11,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 //Arizona county line information from https://cartographyvectors.com/map/1085-arizona-with-county-boundaries
-<<<<<<< HEAD:dakota_analysis/Counties maps/counties.js
-let link = //jsonified flask link
-=======
-let link = 'https://github.com/Abby-Boulter/Project_3/blob/main/resources/arizona-with-county-boundaries_1085.geojson'
->>>>>>> 5fe6fb7f370fdaee05d85041e348f34224cc2ffa:arcive_analysis/dakota_analysis/Counties maps/counties.js
+//<<<<<<< HEAD:dakota_analysis/Counties maps/counties.js
+let link = 'http://127.0.0.1:5000/countiesjson'
+//=======
+// let link = 'https://github.com/Abby-Boulter/Project_3/blob/main/resources/arizona-with-county-boundaries_1085.geojson'
+//>>>>>>> 5fe6fb7f370fdaee05d85041e348f34224cc2ffa:arcive_analysis/dakota_analysis/Counties maps/counties.js
 
 // Getting our GeoJSON data
 d3.json(link).then(function(data) {
