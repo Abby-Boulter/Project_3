@@ -17,7 +17,7 @@ Base.prepare(autoload_with=engine)
 
 #Save reference to the table
 
-ext_heat_days = Base.classes.extreme_heat_days
+heat_days = Base.classes.extreme_heat_days
 ed_visit_35 = Base.classes.ed_visit_35
 
 #################################################
@@ -48,7 +48,7 @@ def dashboard():
     ## query county ed-rates for all years from SQLite database
     results_ed_visit_35 = session.query(ed_visit_35.county, ed_visit_35.year, ed_visit_35.ed_rate_35).order_by(ed_visit_35.year.asc()).all()
 
-    session.close()
+
 
         # Create a dictionary from the row data and append to a list of all_passengers
     all_ed_35 = []
@@ -60,17 +60,19 @@ def dashboard():
         all_ed_35.append(ed_dict)
     
     return jsonify(all_ed_35)
+    session.close()
 
+    return render_template("ed35.html", all_ed_35=all_ed_35)
 @app.route("/extheatdays") # no route because this should be homepage
-def dashboard():
+def extreme():
     session = Session(engine)
     
 ## visualizations
 
     ## query county ed-rates for all years from SQLite database
-    results_ext_heat_days = session.query(ext_heat_days.county, ext_heat_days.year, ext_heat_days.ext_heat_days).order_by(ext_heat_days.year.asc()).all()
+    results_ext_heat_days = session.query(heat_days.county, heat_days.year, heat_days.ext_heat_days).order_by(heat_days.year.asc()).all()
 
-    session.close()
+
 
         # Create a dictionary from the row data and append to a list of all_passengers
     all_ext_heat = []
@@ -82,6 +84,10 @@ def dashboard():
         all_ext_heat.append(ext_dict)
     
     return jsonify(all_ext_heat)
+
+    session.close()
+
+    return render_template("ehd.html", all_ehd=all_ehd)
 
 @app.route("/countiesjson")
 def test():
