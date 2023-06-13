@@ -51,7 +51,7 @@ def dashboard():
 
 
 
-        # Create a dictionary from the row data and append to a list of all_passengers
+        # Create a dictionary from the row data and append to a list of all_ed35 visits
     all_ed_35 = []
     for county, year, ed_rate_35 in results_ed_visit_35:
         ed_dict = {}
@@ -94,7 +94,7 @@ def extreme():
 
     session.close()
 
-    return render_template("ehd.html", all_ehd=all_ehd)
+    return render_template("ehd.html", all_ext_heat=all_ext_heat)
 
 @app.route("/countiesjson")
 def test():
