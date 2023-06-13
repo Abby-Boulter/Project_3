@@ -52,7 +52,7 @@ def ehd():
         ed_dict = {}
         ed_dict["county"] = county
         ed_dict["year"] = year
-        ed_dict["ed_rate"] = ext_heat_days
+        ed_dict["values"] = ext_heat_days
         all_ehd.append(ed_dict)
     
     return jsonify(all_ehd)
@@ -69,15 +69,15 @@ def edvisits35():
 # HRI data tables have county, year, ed_rate, hosp_rate, vul_rate
 
     ## query county ed-rates for all years from SQLite database
-    results_ed_visit_35 = session.query(ed_visit_35.county, ed_visit_35.year, ed_visit_35.ed_rate).order_by(ed_visit_35.year.asc()).all()
+    results_ed_visit_35 = session.query(ed_visit_35.county, ed_visit_35.year, ed_visit_35.ed_rate_35).order_by(ed_visit_35.year.asc()).all()
     
     # Create a dictionary from the row data and append to a list of all_passengers
     all_ed_35 = []
-    for county, year, ed_rate in results_ed_visit_35:
+    for county, year, ed_rate_35 in results_ed_visit_35:
         ed_dict = {}
         ed_dict["county"] = county
         ed_dict["year"] = year
-        ed_dict["ed_rate"] = ed_rate
+        ed_dict["values"] = ed_rate_35
         all_ed_35.append(ed_dict)
     
     return jsonify(all_ed_35)
