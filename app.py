@@ -5,6 +5,7 @@ from sqlalchemy import create_engine, func
 from flask import Flask, jsonify, render_template 
 import numpy as np
 import json 
+from flask_cors.extension import CORS
 #################################################
 # Database Setup
 #################################################
@@ -24,7 +25,7 @@ ed_visit_35 = Base.classes.ed_visit_35
 # Flask Setup
 #################################################
 app = Flask(__name__)
-
+cors = CORS(app)
 #################################################
 # Flask Routes
 #################################################
@@ -59,10 +60,16 @@ def dashboard():
         ed_dict["value"] = ed_rate_35
         all_ed_35.append(ed_dict)
     
-    return jsonify(all_ed_35)
+    
     session.close()
+    return jsonify (all_ed_35)
 
-    return render_template("ed35.html", all_ed_35=all_ed_35)
+@app.route("/test")
+def function():
+    return render_template("index.html")
+    
+
+    #return render_template("index.html", all_ed_35=all_ed_35)
 @app.route("/extheatdays") # no route because this should be homepage
 def extreme():
     session = Session(engine)
@@ -83,7 +90,7 @@ def extreme():
         ext_dict["value"] = ext_heat_days
         all_ext_heat.append(ext_dict)
     
-    return jsonify(all_ext_heat)
+    
 
     session.close()
 
@@ -93,7 +100,7 @@ def extreme():
 def test():
   with open('data/arizona-with-county-boundaries_1085.geojson','r') as gdata:
     geojson = json.load(gdata)
-    print(geojson)
+   
     return geojson
 
 
