@@ -1,18 +1,16 @@
 #Imports
 import numpy as np
 import pandas as pd
-import plotly.graph_objs as go
-import chart_studio.plotly as py
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify
 
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///..data/hri.sqlite")
+engine = create_engine("sqlite:///hri.sqlite")
 
 #Reflect an existing database into a new model
 Base = automap_base()
@@ -20,12 +18,7 @@ Base = automap_base()
 Base.prepare(autoload_with=engine)
 
 #Save reference to the table
-hri = Base.classes.hri
-ed_visit = Base.classes.ed_visit
-hospitalization = Base.classes.hospitalization
-vulnerability = Base.classes.vulnerability
-ed_visit_35 = Base.classes.ed_visit_35
-
+hri_table = Base.classes.hri
 
 #################################################
 # Flask Setup
@@ -50,36 +43,37 @@ def home():
 
 #HRI Route
 @app.route("/hri")
-def precipitation():
+def hri():
     #Create our session (link) from Python to the DB
     session = Session(engine)
 
     #Return a list of all precipitation
-    hri  = session.query(hri.year, hri.ED_Rates)
+    hri_sess  = pd.DataFrame(session.query(hri_table.year, hri_table.ED_rates))
 
     session.close()
 
-    #Convert precipitation analysis to a dictionary using date as the key and prcp as the value.
-    hri_values = []
-    for yr, rt in hri:
-        hri_dict = {}
-        hri_dict["year"] = yr
-        hri_dict["ED_Rates"] = rt
-        hri_values.append(hri_dict)
 
-    return jsonify(hri_values) 
- 
+    return hri_sess['']
 
+
+
+#HRIMap Route
+@app.route("/hriMap")
+def hriMap():
+    #Create our session (link) from Python to the DB
+    session = Session(engine)
+    df = pd.DataFrame(session.query(hri_table.county, hri_table.year, hri_table.ED_rates))
 # min year in your dataset
-year = 1998
+year = 2011
 
 # your color-scale
 scl = [[0.0, '#ffffff'],[0.2, '#b4a8ce'],[0.4, '#8573a9'],
        [0.6, '#7159a3'],[0.8, '#5732a1'],[1.0, '#2c0579']] # purples
 
+
 data_slider = []
-for year in df['years'].unique():
-    df_segmented =  df[(df['years']== year)]
+for year in df['year'].unique():
+    df_segmented =  df[(df['year']== year)]
 
     for col in df_segmented.columns:
         df_segmented[col] = df_segmented[col].astype(str)
@@ -94,22 +88,6 @@ for year in df['years'].unique():
 
     data_slider.append(data_each_yr)
 
-steps = []
-for i in range(len(data_slider)):
-    step = dict(method='restyle',
-                args=['visible', [False] * len(data_slider)],
-                label='Year {}'.format(i + 1998))
-    step['args'][1][i] = True
-    steps.append(step)
-
-sliders = [dict(active=0, pad={"t": 1}, steps=steps)]
-
-layout = dict(title ='UFO Sightings by State Since 1998', geo=dict(scope='usa',
-                       projection={'type': 'albers usa'}),
-              sliders=sliders)
-
-fig = dict(data=data_slider, layout=layout)
-periscope.plotly(fig)
 
 if __name__ == '__main__':
     app.run(debug=True)
