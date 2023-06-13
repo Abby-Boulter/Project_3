@@ -5,6 +5,7 @@ from sqlalchemy import create_engine, func
 from flask import Flask, jsonify, render_template 
 import numpy as np
 import json 
+from flask_cors.extension import CORS 
 #################################################
 # Database Setup
 #################################################
@@ -17,13 +18,15 @@ Base.prepare(autoload_with=engine)
 
 #Save reference to the table
 
-ext_heat_days = Base.classes.extreme_heat_days
+
 ed_visit_35 = Base.classes.ed_visit_35
 
+heat_days = Base.classes.extreme_heat_days
 #################################################
 # Flask Setup
 #################################################
 app = Flask(__name__)
+cors = CORS(app)
 
 #################################################
 # Flask Routes
@@ -61,20 +64,21 @@ def dashboard():
     
     return jsonify(all_ed_35)
 
-@app.route("/extheatdays") # no route because this should be homepage
-def dashboard():
+@app.route("/heatdays") # no route because this should be homepage
+def heat():
     session = Session(engine)
+    global heat_days
     
 ## visualizations
 
     ## query county ed-rates for all years from SQLite database
-    results_ext_heat_days = session.query(ext_heat_days.county, ext_heat_days.year, ext_heat_days.ext_heat_days).order_by(ext_heat_days.year.asc()).all()
+    results_ext_heat_days = session.query(heat_days.county, heat_days.year, heat_days.ext_heat_days).order_by(heat_days.year.asc()).all()
 
     session.close()
 
         # Create a dictionary from the row data and append to a list of all_passengers
     all_ext_heat = []
-    for county, year, ext_heat_days in results_ext_heat_days:
+    for county, year, heat_days in results_ext_heat_days:
         ext_dict = {}
         ext_dict["county"] = county
         ext_dict["year"] = year
