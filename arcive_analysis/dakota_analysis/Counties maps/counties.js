@@ -1,5 +1,3 @@
-//County lines map coding
-
 // Creating the map object
 let myMap = L.map("map", 
 {
