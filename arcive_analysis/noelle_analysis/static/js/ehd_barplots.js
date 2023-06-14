@@ -12,8 +12,8 @@ function buildBarChart(sample) {
         
         // Set up the trace for the bar chart
         let trace = {
-            x: xticks,
-            y: yticks,
+            x: county,
+            y: EDrates,
             text: labels,
             type: "bar",
             orientation: "h"
