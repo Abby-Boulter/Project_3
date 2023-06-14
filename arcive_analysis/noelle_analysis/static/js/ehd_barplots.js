@@ -1,23 +1,30 @@
+const ED35 = 'data/EDRates35.csv'
+// Fetch the JSON data and console log it
 
-// another file for the extreme heat days
-var results_ext_heat_days = "http://127.0.0.1:5000/ehd"
+d3.csv(ED35).then(function(data) {
+  onsole.log(data);
+  });
 
-// see data in console 
-console.log(results_ext_heat_days)
+function buildBarChart(sample) {
 
-// Use an anon function to return only the values
-var results_ext_heat_days = results_ext_heat_days.map(function(d) { return d.rate;});
+    // Use D3 to retrieve all of the data
+    d3.json(ED35).then((data) => { 
+        
+        // Set up the trace for the bar chart
+        let trace = {
+            x: county,
+            y: EDrates,
+            text: labels,
+            type: "bar",
+            orientation: "h"
+        };
 
-// Filter JSON to return only the years (could use either variable)
-var county = results_ext_heat_days.map(function(d) { return d.county;});
+        // Setup the layout
+        let layout = {
+            title: "Counties ED 35 Rates"
+        };
 
-// Inserting data into Plotly chart 
-var data = [
-  {
-    x: county,
-    y: values,
-    type: 'bar'
-  }
-];
-
-Plotly.newPlot('myDiv', data);
+        // Call Plotly to plot the bar chart
+        Plotly.newPlot("bar", [trace], layout)
+    });
+};
