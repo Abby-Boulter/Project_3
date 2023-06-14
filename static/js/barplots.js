@@ -1,7 +1,15 @@
 // 1.	Get your dataset: 
-var HRI = require('data/HRI.json')
+fetch("./data/HRI.json")
+.then(response => {
+   return response.json();
+})
+.then(data => console.log(data));
 
-// Fetch the JSON data and console log it
-d3.json(HRI).then(function(data) {
-    console.log(data);
+
+// Functions for plot
+function plotFromfile() {
+  Plotly.d2.json(HRI, function (err, rows) {
+    console.log(rows);
+    processData(rows);
   });
+}
