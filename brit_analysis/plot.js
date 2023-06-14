@@ -10,6 +10,7 @@ let trace1 = {
     x: data.map(row => row.year),
     y: data.map(row => row.value),
     type: "bar"
+  
   };
 
 // Data trace array
