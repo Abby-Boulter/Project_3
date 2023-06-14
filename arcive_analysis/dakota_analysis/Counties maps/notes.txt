@@ -1,27 +1,2 @@
 
-Yuma_EDR2011={}
-Yuma_EDR2012={}
-Yuma_EDR2013={}
-Yuma_EDR2014={}
-Yuma_EDR2015={}
-Yuma_EDR2016={}
-Yuma_EDR2017={}
-Yuma_EDR2018={}
-Yuma_EDR2019={}
-Yuma_EDR2020={}
-Yuma_EDR2021={}
-for county in EDRates_df:
-    Yuma_EDR2011 = {Xheatdays_df.year[0]: Xheatdays_df.Yuma[0]}
-    Yuma_EDR2012 = {Xheatdays_df.year[1]: Xheatdays_df.Yuma[1]}
-    Yuma_EDR2013 = {Xheatdays_df.year[2]: Xheatdays_df.Yuma[2]}
-    Yuma_EDR2014 = {Xheatdays_df.year[3]: Xheatdays_df.Yuma[3]}
-    Yuma_EDR2015 = {Xheatdays_df.year[4]: Xheatdays_df.Yuma[4]}
-    Yuma_EDR2016 = {Xheatdays_df.year[5]: Xheatdays_df.Yuma[5]}
-    Yuma_EDR2017 = {Xheatdays_df.year[6]: Xheatdays_df.Yuma[6]}
-    Yuma_EDR2018 = {Xheatdays_df.year[7]: Xheatdays_df.Yuma[7]}
-    Yuma_EDR2019 = {Xheatdays_df.year[8]: Xheatdays_df.Yuma[8]}
-    Yuma_EDR2020 = {Xheatdays_df.year[9]: Xheatdays_df.Yuma[9]}
-    Yuma_EDR2021 = {Xheatdays_df.year[10]: Xheatdays_df.Yuma[10]}
-
-Yuma_EDR = Merge(Yuma_EDR2011, Yuma_EDR2012, Yuma_EDR2013, Yuma_EDR2014, Yuma_EDR2015, Yuma_EDR2016, Yuma_EDR2017, Yuma_EDR2018, Yuma_EDR2019, Yuma_EDR2020, Yuma_EDR2021)
-
+, "Apache_EDR": {"2016": 16, "2019": 23, "2020": 38, "2011": 19, "2012": 19, "2015": 18, "2013": 18, "2018": 31, "2021": 24, "2017": 16, "2014": 5}, "Apache_XHD": {"2016": 16, "2019": 23, "2020": 38, "2011": 19, "2012": 19, "2015": 18, "2013": 18, "2018": 31, "2021": 24, "2017": 16, "2014": 5}
