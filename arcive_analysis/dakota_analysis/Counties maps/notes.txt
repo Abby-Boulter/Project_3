@@ -1,26 +1,27 @@
-Mohave_XHD2011={}
-Mohave_XHD2012={}
-Mohave_XHD2013={}
-Mohave_XHD2014={}
-Mohave_XHD2015={}
-Mohave_XHD2016={}
-Mohave_XHD2017={}
-Mohave_XHD2018={}
-Mohave_XHD2019={}
-Mohave_XHD2020={}
-Mohave_XHD2021={}
-for county in Xheatdays_df:
-    Mohave_XHD2011 = {Xheatdays_df.year[0]: Xheatdays_df.Mohave[0]}
-    Mohave_XHD2012 = {Xheatdays_df.year[1]: Xheatdays_df.Mohave[1]}
-    Mohave_XHD2013 = {Xheatdays_df.year[2]: Xheatdays_df.Mohave[2]}
-    Mohave_XHD2014 = {Xheatdays_df.year[3]: Xheatdays_df.Mohave[3]}
-    Mohave_XHD2015 = {Xheatdays_df.year[4]: Xheatdays_df.Mohave[4]}
-    Mohave_XHD2016 = {Xheatdays_df.year[5]: Xheatdays_df.Mohave[5]}
-    Mohave_XHD2017 = {Xheatdays_df.year[6]: Xheatdays_df.Mohave[6]}
-    Mohave_XHD2018 = {Xheatdays_df.year[7]: Xheatdays_df.Mohave[7]}
-    Mohave_XHD2019 = {Xheatdays_df.year[8]: Xheatdays_df.Mohave[8]}
-    Mohave_XHD2020 = {Xheatdays_df.year[9]: Xheatdays_df.Mohave[9]}
-    Mohave_XHD2021 = {Xheatdays_df.year[10]: Xheatdays_df.Mohave[10]}
 
-Mohave_XHD = Merge(Mohave_XHD2011, Mohave_XHD2012, Mohave_XHD2013, Mohave_XHD2014, Mohave_XHD2015, Mohave_XHD2016, Mohave_XHD2017, Mohave_XHD2018, Mohave_XHD2019, Mohave_XHD2020, Mohave_XHD2021)
-Mohave_XHD
+Yuma_EDR2011={}
+Yuma_EDR2012={}
+Yuma_EDR2013={}
+Yuma_EDR2014={}
+Yuma_EDR2015={}
+Yuma_EDR2016={}
+Yuma_EDR2017={}
+Yuma_EDR2018={}
+Yuma_EDR2019={}
+Yuma_EDR2020={}
+Yuma_EDR2021={}
+for county in EDRates_df:
+    Yuma_EDR2011 = {Xheatdays_df.year[0]: Xheatdays_df.Yuma[0]}
+    Yuma_EDR2012 = {Xheatdays_df.year[1]: Xheatdays_df.Yuma[1]}
+    Yuma_EDR2013 = {Xheatdays_df.year[2]: Xheatdays_df.Yuma[2]}
+    Yuma_EDR2014 = {Xheatdays_df.year[3]: Xheatdays_df.Yuma[3]}
+    Yuma_EDR2015 = {Xheatdays_df.year[4]: Xheatdays_df.Yuma[4]}
+    Yuma_EDR2016 = {Xheatdays_df.year[5]: Xheatdays_df.Yuma[5]}
+    Yuma_EDR2017 = {Xheatdays_df.year[6]: Xheatdays_df.Yuma[6]}
+    Yuma_EDR2018 = {Xheatdays_df.year[7]: Xheatdays_df.Yuma[7]}
+    Yuma_EDR2019 = {Xheatdays_df.year[8]: Xheatdays_df.Yuma[8]}
+    Yuma_EDR2020 = {Xheatdays_df.year[9]: Xheatdays_df.Yuma[9]}
+    Yuma_EDR2021 = {Xheatdays_df.year[10]: Xheatdays_df.Yuma[10]}
+
+Yuma_EDR = Merge(Yuma_EDR2011, Yuma_EDR2012, Yuma_EDR2013, Yuma_EDR2014, Yuma_EDR2015, Yuma_EDR2016, Yuma_EDR2017, Yuma_EDR2018, Yuma_EDR2019, Yuma_EDR2020, Yuma_EDR2021)
+
