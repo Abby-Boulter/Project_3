@@ -1,43 +1,25 @@
-const ED35 = 'data/EDRates35_wide.csv'
-// Fetch the JSON data and console log it
-
-d3.csv(ED35).then(function(data) {
-  onsole.log(data);
+let url = "https://ephtracking.cdc.gov/apigateway/api/v1/getCoreHolder/423/82/1/4/1/2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011/0/0?TemperatureHeatIndexId=1&RelativeThresholdId=1";
+  
+  // Getting our GeoJSON data
+d3.json(url).then(function(data) {
+  // Once we get a response, send the data.features object to the createFeatures function.
+  console.log(data.tableResult);
   });
 
-function buildBarChart(sample) {
+// Create a droupdown menu and sample selection
+// Function called by DOM changes
 
-    // Use D3 to retrieve all of the data
-    d3.json(ED35).then((data) => { 
-        year_selected = //needs to be selected from drop down
+// Create bar chart
+let county_names = ['Apache', 'Cochise', 'Coconino', 'Gila', 'Graham', 'Greenlee', 'La Paz',
+'Maricopa', 'Mohave', 'Navajo', 'Pima', 'Pinal', 'Santa Cruz', 'Yavapai', 'Yuma'];
 
-        county_year = ['Apache','Cochise','Coconino','Gila','Graham','Greenlee','La Paz','Maricopa','Mohave','Navajo','Pima','Pinal','Santa Cruz','Yavapai','Yuma']
-        values_year = ED35.
-        // Set up the trace for the bar chart
-        let trace = {
-            x: county,
-            y: EDrates,
-            text: labels,
-            type: "bar",
-            orientation: "h"
-        };
+// function countyCount(county_names){
+//   let count = 0;
 
-        // Setup the layout
-        let layout = {
-            title: "Counties ED 35 Rates"
-        };
-
-        // Call Plotly to plot the bar chart
-        Plotly.newPlot("bar", [trace], layout)
-    });
-};
-
-var data = [
-    {
-      x: [ED35.counties.unique()],
-      y: [20, 14, 23],
-      type: 'bar'
-    }
-  ];
-  
-  Plotly.newPlot('myDiv', data);
+//   data.forEach((data) => {
+//       if (data.tableResult.geo == county_names){
+//           count += 1;
+//       };
+//   });
+//   return count;
+// };
