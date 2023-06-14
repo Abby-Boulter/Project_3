@@ -1,0 +1,26 @@
+Mohave_XHD2011={}
+Mohave_XHD2012={}
+Mohave_XHD2013={}
+Mohave_XHD2014={}
+Mohave_XHD2015={}
+Mohave_XHD2016={}
+Mohave_XHD2017={}
+Mohave_XHD2018={}
+Mohave_XHD2019={}
+Mohave_XHD2020={}
+Mohave_XHD2021={}
+for county in Xheatdays_df:
+    Mohave_XHD2011 = {Xheatdays_df.year[0]: Xheatdays_df.Mohave[0]}
+    Mohave_XHD2012 = {Xheatdays_df.year[1]: Xheatdays_df.Mohave[1]}
+    Mohave_XHD2013 = {Xheatdays_df.year[2]: Xheatdays_df.Mohave[2]}
+    Mohave_XHD2014 = {Xheatdays_df.year[3]: Xheatdays_df.Mohave[3]}
+    Mohave_XHD2015 = {Xheatdays_df.year[4]: Xheatdays_df.Mohave[4]}
+    Mohave_XHD2016 = {Xheatdays_df.year[5]: Xheatdays_df.Mohave[5]}
+    Mohave_XHD2017 = {Xheatdays_df.year[6]: Xheatdays_df.Mohave[6]}
+    Mohave_XHD2018 = {Xheatdays_df.year[7]: Xheatdays_df.Mohave[7]}
+    Mohave_XHD2019 = {Xheatdays_df.year[8]: Xheatdays_df.Mohave[8]}
+    Mohave_XHD2020 = {Xheatdays_df.year[9]: Xheatdays_df.Mohave[9]}
+    Mohave_XHD2021 = {Xheatdays_df.year[10]: Xheatdays_df.Mohave[10]}
+
+Mohave_XHD = Merge(Mohave_XHD2011, Mohave_XHD2012, Mohave_XHD2013, Mohave_XHD2014, Mohave_XHD2015, Mohave_XHD2016, Mohave_XHD2017, Mohave_XHD2018, Mohave_XHD2019, Mohave_XHD2020, Mohave_XHD2021)
+Mohave_XHD
