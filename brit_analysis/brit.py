@@ -9,34 +9,31 @@ from flask_cors.extension import CORS
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///data/hri.sqlite")
 
-#Reflect an existing database into a new model
+app = Flask(__name__)
+cors = CORS(app)
+
+engine = create_engine("sqlite:///..data/HRI.sqlite")
 Base = automap_base()
 #Reflect the tables
 Base.prepare(autoload_with=engine)
-
-#Save reference to the table
-
-heat_days = Base.classes.extreme_heat_days
 ed_visit_35 = Base.classes.ed_visit_35
 
-#################################################
-# Flask Setup
-#################################################
-app = Flask(__name__)
-cors = CORS(app)
-#################################################
-# Flask Routes
-#################################################
 
 @app.route("/")
-def home():
-      return render_template("index.html")
+def return_data():
+     result=engine.execute('select * from data').fetchall()
+     
 
-@app.route("/data")
-def return_data:
 
+
+
+      
+
+
+# @app.route("/")
+# def home():
+#       return render_template("first.html")
 
 
 
