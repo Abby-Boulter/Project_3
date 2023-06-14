@@ -34,83 +34,12 @@ cors = CORS(app)
 def home():
       return render_template("index.html")
 
-<<<<<<< HEAD
-=======
-@app.route("/edvisit") # no route because this should be homepage
-def dashboard():
-    session = Session(engine)
-    
-## visualizations
-
-#################
-## Bar charts ##
-#################
-
-# HRI data tables have county, year, ed_rate, hosp_rate, vul_rate
-
-    ## query county ed-rates for all years from SQLite database
-    results_ed_visit_35 = session.query(ed_visit_35.county, ed_visit_35.year, ed_visit_35.ed_rate_35).order_by(ed_visit_35.year.asc()).all()
-
-
-
-        # Create a dictionary from the row data and append to a list of all_ed35 visits
-    all_ed_35 = []
-    for county, year, ed_rate_35 in results_ed_visit_35:
-        ed_dict = {}
-        ed_dict["county"] = county
-        ed_dict["year"] = year
-        ed_dict["value"] = ed_rate_35
-        all_ed_35.append(ed_dict)
-    
-    
-    session.close()
-    return jsonify (all_ed_35)
-
-@app.route("/test")
-def function():
-    return render_template("index.html")
-    
-
-    #return render_template("index.html", all_ed_35=all_ed_35)
-@app.route("/extheatdays") # no route because this should be homepage
-def extreme():
-    session = Session(engine)
-    
-## visualizations
-
-    ## query county ed-rates for all years from SQLite database
-    results_ext_heat_days = session.query(heat_days.county, heat_days.year, heat_days.ext_heat_days).order_by(heat_days.year.asc()).all()
-
-
-
-        # Create a dictionary from the row data and append to a list of all_passengers
-    all_ext_heat = []
-    for county, year, ext_heat_days in results_ext_heat_days:
-        ext_dict = {}
-        ext_dict["county"] = county
-        ext_dict["year"] = year
-        ext_dict["value"] = ext_heat_days
-        all_ext_heat.append(ext_dict)
-    
-    
-
-    session.close()
-
-    return render_template("ehd.html", all_ext_heat=all_ext_heat)
-
-@app.route("/countiesjson")
-def test():
-  with open('data/arizona-with-county-boundaries_1085.geojson','r') as gdata:
-    geojson = json.load(gdata)
-   
-    return geojson
-
-    return render_template("countiesjson.html")
->>>>>>> 1b15d651dfa82a903f0bdcc85d4b1c061c115925
 
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
 
 
 
