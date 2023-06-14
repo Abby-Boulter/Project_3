@@ -1,32 +1,32 @@
 // see data in console 
 console.log(data);
 
-// // return only 2021 data
+// // return only Apache data
 
 ////////////////////////////////
 // Create a custom filtering function
-function selectRecent(bob) {
-  return bob.year == 2021;
+function selector(bob) {
+  return bob.county == 'Apache';
 }
 
 // filter() uses the custom function as its argument
-let data2021 = data.filter(selectRecent);
+let dataApache = data.filter(selector);
 
 // Print to console
-console.log(data2021);
+console.log(dataApache);
 
 //////////////////////////////////////////////
 
 // County names
-county = data2021.map(function (row){
+county = dataApache.map(function (row){
   return row.county
 });
 
 // 
 let trace1 = {
-    x: data2021.map(row => row.county),
-    y: data2021.map(row => row.value),
-    type: "bar"
+    x: dataApache.map(row => row.year),
+    y: dataApache.map(row => row.value),
+    type: "pie"
   
   };
 
@@ -35,8 +35,8 @@ let traceData = [trace1];
 
 // Apply the group barmode to the layout
 let layout = {
-  title: "ED Rates for 2021 ",
-  x: "county",
+  title: "ED Rates for Apache County ",
+  x: "year",
   y:"value of ed rates"
 };
 
