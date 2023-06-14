@@ -34,26 +34,16 @@ cors = CORS(app)
 def home():
       return render_template("index.html")
 
-<<<<<<< HEAD
-=======
-@app.route("/edvisit") # no route because this should be homepage
+@app.route("/edvisit") 
 def dashboard():
     session = Session(engine)
     
-## visualizations
-
-#################
-## Bar charts ##
-#################
-
 # HRI data tables have county, year, ed_rate, hosp_rate, vul_rate
 
     ## query county ed-rates for all years from SQLite database
     results_ed_visit_35 = session.query(ed_visit_35.county, ed_visit_35.year, ed_visit_35.ed_rate_35).order_by(ed_visit_35.year.asc()).all()
 
-
-
-        # Create a dictionary from the row data and append to a list of all_ed35 visits
+        # Create a dictionary from the row data and append to a list of all_passengers
     all_ed_35 = []
     for county, year, ed_rate_35 in results_ed_visit_35:
         ed_dict = {}
@@ -63,15 +53,13 @@ def dashboard():
         all_ed_35.append(ed_dict)
     
     
+
     session.close()
     return jsonify (all_ed_35)
 
-@app.route("/test")
-def function():
-    return render_template("index.html")
-    
 
-    #return render_template("index.html", all_ed_35=all_ed_35)
+    #return render_template("kelly.html", brittany=all_ed_35)
+
 @app.route("/extheatdays") # no route because this should be homepage
 def extreme():
     session = Session(engine)
@@ -96,7 +84,7 @@ def extreme():
 
     session.close()
 
-    return render_template("ehd.html", all_ext_heat=all_ext_heat)
+    return render_template("ehd.html", all_ehd=all_ehd)
 
 @app.route("/countiesjson")
 def test():
@@ -105,8 +93,6 @@ def test():
    
     return geojson
 
-    return render_template("countiesjson.html")
->>>>>>> 1b15d651dfa82a903f0bdcc85d4b1c061c115925
 
 
 if __name__ == "__main__":
