@@ -1,0 +1,1322 @@
+{
+    "0": {
+        "": "0",
+        "key": "0",
+        "county": "Apache",
+        "year": "2011",
+        "ext_heat_days": "19",
+        "ed_rate_35": "22.2"
+    },
+    "1": {
+        "": "1",
+        "key": "1",
+        "county": "Apache",
+        "year": "2012",
+        "ext_heat_days": "19",
+        "ed_rate_35": "25.9"
+    },
+    "2": {
+        "": "2",
+        "key": "2",
+        "county": "Apache",
+        "year": "2013",
+        "ext_heat_days": "18",
+        "ed_rate_35": "21.7"
+    },
+    "3": {
+        "": "3",
+        "key": "3",
+        "county": "Apache",
+        "year": "2014",
+        "ext_heat_days": "5",
+        "ed_rate_35": "17.5"
+    },
+    "4": {
+        "": "4",
+        "key": "4",
+        "county": "Apache",
+        "year": "2015",
+        "ext_heat_days": "18",
+        "ed_rate_35": "23.1"
+    },
+    "5": {
+        "": "5",
+        "key": "5",
+        "county": "Apache",
+        "year": "2016",
+        "ext_heat_days": "16",
+        "ed_rate_35": "23.0"
+    },
+    "6": {
+        "": "6",
+        "key": "6",
+        "county": "Apache",
+        "year": "2017",
+        "ext_heat_days": "16",
+        "ed_rate_35": "19.4"
+    },
+    "7": {
+        "": "7",
+        "key": "7",
+        "county": "Apache",
+        "year": "2018",
+        "ext_heat_days": "31",
+        "ed_rate_35": "21.3"
+    },
+    "8": {
+        "": "8",
+        "key": "8",
+        "county": "Apache",
+        "year": "2019",
+        "ext_heat_days": "23",
+        "ed_rate_35": "25.4"
+    },
+    "9": {
+        "": "9",
+        "key": "9",
+        "county": "Apache",
+        "year": "2020",
+        "ext_heat_days": "38",
+        "ed_rate_35": "19.3"
+    },
+    "10": {
+        "": "10",
+        "key": "10",
+        "county": "Apache",
+        "year": "2021",
+        "ext_heat_days": "24",
+        "ed_rate_35": "24.0"
+    },
+    "11": {
+        "": "11",
+        "key": "11",
+        "county": "Cochise",
+        "year": "2011",
+        "ext_heat_days": "34",
+        "ed_rate_35": "48.6"
+    },
+    "12": {
+        "": "12",
+        "key": "12",
+        "county": "Cochise",
+        "year": "2012",
+        "ext_heat_days": "25",
+        "ed_rate_35": "45.0"
+    },
+    "13": {
+        "": "13",
+        "key": "13",
+        "county": "Cochise",
+        "year": "2013",
+        "ext_heat_days": "19",
+        "ed_rate_35": "42.8"
+    },
+    "14": {
+        "": "14",
+        "key": "14",
+        "county": "Cochise",
+        "year": "2014",
+        "ext_heat_days": "4",
+        "ed_rate_35": "39.8"
+    },
+    "15": {
+        "": "15",
+        "key": "15",
+        "county": "Cochise",
+        "year": "2015",
+        "ext_heat_days": "14",
+        "ed_rate_35": "37.5"
+    },
+    "16": {
+        "": "16",
+        "key": "16",
+        "county": "Cochise",
+        "year": "2016",
+        "ext_heat_days": "19",
+        "ed_rate_35": "37.1"
+    },
+    "17": {
+        "": "17",
+        "key": "17",
+        "county": "Cochise",
+        "year": "2017",
+        "ext_heat_days": "17",
+        "ed_rate_35": "38.1"
+    },
+    "18": {
+        "": "18",
+        "key": "18",
+        "county": "Cochise",
+        "year": "2018",
+        "ext_heat_days": "18",
+        "ed_rate_35": "39.1"
+    },
+    "19": {
+        "": "19",
+        "key": "19",
+        "county": "Cochise",
+        "year": "2019",
+        "ext_heat_days": "26",
+        "ed_rate_35": "36.8"
+    },
+    "20": {
+        "": "20",
+        "key": "20",
+        "county": "Cochise",
+        "year": "2020",
+        "ext_heat_days": "35",
+        "ed_rate_35": "30.8"
+    },
+    "21": {
+        "": "21",
+        "key": "21",
+        "county": "Cochise",
+        "year": "2021",
+        "ext_heat_days": "16",
+        "ed_rate_35": "31.8"
+    },
+    "22": {
+        "": "22",
+        "key": "22",
+        "county": "Coconino",
+        "year": "2011",
+        "ext_heat_days": "17",
+        "ed_rate_35": "19.4"
+    },
+    "23": {
+        "": "23",
+        "key": "23",
+        "county": "Coconino",
+        "year": "2012",
+        "ext_heat_days": "20",
+        "ed_rate_35": "18.0"
+    },
+    "24": {
+        "": "24",
+        "key": "24",
+        "county": "Coconino",
+        "year": "2013",
+        "ext_heat_days": "16",
+        "ed_rate_35": "17.1"
+    },
+    "25": {
+        "": "25",
+        "key": "25",
+        "county": "Coconino",
+        "year": "2014",
+        "ext_heat_days": "4",
+        "ed_rate_35": "15.7"
+    },
+    "26": {
+        "": "26",
+        "key": "26",
+        "county": "Coconino",
+        "year": "2015",
+        "ext_heat_days": "19",
+        "ed_rate_35": "18.8"
+    },
+    "27": {
+        "": "27",
+        "key": "27",
+        "county": "Coconino",
+        "year": "2016",
+        "ext_heat_days": "17",
+        "ed_rate_35": "19.7"
+    },
+    "28": {
+        "": "28",
+        "key": "28",
+        "county": "Coconino",
+        "year": "2017",
+        "ext_heat_days": "16",
+        "ed_rate_35": "17.7"
+    },
+    "29": {
+        "": "29",
+        "key": "29",
+        "county": "Coconino",
+        "year": "2018",
+        "ext_heat_days": "28",
+        "ed_rate_35": "18.6"
+    },
+    "30": {
+        "": "30",
+        "key": "30",
+        "county": "Coconino",
+        "year": "2019",
+        "ext_heat_days": "22",
+        "ed_rate_35": "16.1"
+    },
+    "31": {
+        "": "31",
+        "key": "31",
+        "county": "Coconino",
+        "year": "2020",
+        "ext_heat_days": "36",
+        "ed_rate_35": "15.9"
+    },
+    "32": {
+        "": "32",
+        "key": "32",
+        "county": "Coconino",
+        "year": "2021",
+        "ext_heat_days": "22",
+        "ed_rate_35": "16.9"
+    },
+    "33": {
+        "": "33",
+        "key": "33",
+        "county": "Gila",
+        "year": "2011",
+        "ext_heat_days": "30",
+        "ed_rate_35": "44.4"
+    },
+    "34": {
+        "": "34",
+        "key": "34",
+        "county": "Gila",
+        "year": "2012",
+        "ext_heat_days": "27",
+        "ed_rate_35": "42.8"
+    },
+    "35": {
+        "": "35",
+        "key": "35",
+        "county": "Gila",
+        "year": "2013",
+        "ext_heat_days": "16",
+        "ed_rate_35": "39.6"
+    },
+    "36": {
+        "": "36",
+        "key": "36",
+        "county": "Gila",
+        "year": "2014",
+        "ext_heat_days": "3",
+        "ed_rate_35": "38.9"
+    },
+    "37": {
+        "": "37",
+        "key": "37",
+        "county": "Gila",
+        "year": "2015",
+        "ext_heat_days": "15",
+        "ed_rate_35": "34.3"
+    },
+    "38": {
+        "": "38",
+        "key": "38",
+        "county": "Gila",
+        "year": "2016",
+        "ext_heat_days": "22",
+        "ed_rate_35": "37.6"
+    },
+    "39": {
+        "": "39",
+        "key": "39",
+        "county": "Gila",
+        "year": "2017",
+        "ext_heat_days": "14",
+        "ed_rate_35": "44.3"
+    },
+    "40": {
+        "": "40",
+        "key": "40",
+        "county": "Gila",
+        "year": "2018",
+        "ext_heat_days": "24",
+        "ed_rate_35": "36.3"
+    },
+    "41": {
+        "": "41",
+        "key": "41",
+        "county": "Gila",
+        "year": "2019",
+        "ext_heat_days": "31",
+        "ed_rate_35": "43.3"
+    },
+    "42": {
+        "": "42",
+        "key": "42",
+        "county": "Gila",
+        "year": "2020",
+        "ext_heat_days": "48",
+        "ed_rate_35": "40.4"
+    },
+    "43": {
+        "": "43",
+        "key": "43",
+        "county": "Gila",
+        "year": "2021",
+        "ext_heat_days": "22",
+        "ed_rate_35": "44.5"
+    },
+    "44": {
+        "": "44",
+        "key": "44",
+        "county": "Graham",
+        "year": "2011",
+        "ext_heat_days": "28",
+        "ed_rate_35": "41.3"
+    },
+    "45": {
+        "": "45",
+        "key": "45",
+        "county": "Graham",
+        "year": "2012",
+        "ext_heat_days": "22",
+        "ed_rate_35": "40.6"
+    },
+    "46": {
+        "": "46",
+        "key": "46",
+        "county": "Graham",
+        "year": "2013",
+        "ext_heat_days": "14",
+        "ed_rate_35": "28.5"
+    },
+    "47": {
+        "": "47",
+        "key": "47",
+        "county": "Graham",
+        "year": "2014",
+        "ext_heat_days": "3",
+        "ed_rate_35": "37.9"
+    },
+    "48": {
+        "": "48",
+        "key": "48",
+        "county": "Graham",
+        "year": "2015",
+        "ext_heat_days": "13",
+        "ed_rate_35": "45.5"
+    },
+    "49": {
+        "": "49",
+        "key": "49",
+        "county": "Graham",
+        "year": "2016",
+        "ext_heat_days": "19",
+        "ed_rate_35": "37.0"
+    },
+    "50": {
+        "": "50",
+        "key": "50",
+        "county": "Graham",
+        "year": "2017",
+        "ext_heat_days": "15",
+        "ed_rate_35": "54.8"
+    },
+    "51": {
+        "": "51",
+        "key": "51",
+        "county": "Graham",
+        "year": "2018",
+        "ext_heat_days": "22",
+        "ed_rate_35": "43.2"
+    },
+    "52": {
+        "": "52",
+        "key": "52",
+        "county": "Graham",
+        "year": "2019",
+        "ext_heat_days": "24",
+        "ed_rate_35": "33.2"
+    },
+    "53": {
+        "": "53",
+        "key": "53",
+        "county": "Graham",
+        "year": "2020",
+        "ext_heat_days": "48",
+        "ed_rate_35": "43.5"
+    },
+    "54": {
+        "": "54",
+        "key": "54",
+        "county": "Graham",
+        "year": "2021",
+        "ext_heat_days": "16",
+        "ed_rate_35": "29.2"
+    },
+    "55": {
+        "": "55",
+        "key": "55",
+        "county": "Greenlee",
+        "year": "2011",
+        "ext_heat_days": "25",
+        "ed_rate_35": "43.7"
+    },
+    "56": {
+        "": "56",
+        "key": "56",
+        "county": "Greenlee",
+        "year": "2012",
+        "ext_heat_days": "22",
+        "ed_rate_35": "63.6"
+    },
+    "57": {
+        "": "57",
+        "key": "57",
+        "county": "Greenlee",
+        "year": "2013",
+        "ext_heat_days": "17",
+        "ed_rate_35": "52.3"
+    },
+    "58": {
+        "": "58",
+        "key": "58",
+        "county": "Greenlee",
+        "year": "2014",
+        "ext_heat_days": "4",
+        "ed_rate_35": "24.8"
+    },
+    "59": {
+        "": "59",
+        "key": "59",
+        "county": "Greenlee",
+        "year": "2015",
+        "ext_heat_days": "14",
+        "ed_rate_35": "43.8"
+    },
+    "60": {
+        "": "60",
+        "key": "60",
+        "county": "Greenlee",
+        "year": "2016",
+        "ext_heat_days": "18",
+        "ed_rate_35": "46.7"
+    },
+    "61": {
+        "": "61",
+        "key": "61",
+        "county": "Greenlee",
+        "year": "2017",
+        "ext_heat_days": "17",
+        "ed_rate_35": "54.0"
+    },
+    "62": {
+        "": "62",
+        "key": "62",
+        "county": "Greenlee",
+        "year": "2018",
+        "ext_heat_days": "19",
+        "ed_rate_35": "49.0"
+    },
+    "63": {
+        "": "63",
+        "key": "63",
+        "county": "Greenlee",
+        "year": "2019",
+        "ext_heat_days": "24",
+        "ed_rate_35": "36.6"
+    },
+    "64": {
+        "": "64",
+        "key": "64",
+        "county": "Greenlee",
+        "year": "2020",
+        "ext_heat_days": "46",
+        "ed_rate_35": "47.3"
+    },
+    "65": {
+        "": "65",
+        "key": "65",
+        "county": "Greenlee",
+        "year": "2021",
+        "ext_heat_days": "16",
+        "ed_rate_35": "41.2"
+    },
+    "66": {
+        "": "66",
+        "key": "66",
+        "county": "La Paz",
+        "year": "2011",
+        "ext_heat_days": "22",
+        "ed_rate_35": "37.9"
+    },
+    "67": {
+        "": "67",
+        "key": "67",
+        "county": "La Paz",
+        "year": "2012",
+        "ext_heat_days": "15",
+        "ed_rate_35": "41.2"
+    },
+    "68": {
+        "": "68",
+        "key": "68",
+        "county": "La Paz",
+        "year": "2013",
+        "ext_heat_days": "13",
+        "ed_rate_35": "25.8"
+    },
+    "69": {
+        "": "69",
+        "key": "69",
+        "county": "La Paz",
+        "year": "2014",
+        "ext_heat_days": "3",
+        "ed_rate_35": "47.9"
+    },
+    "70": {
+        "": "70",
+        "key": "70",
+        "county": "La Paz",
+        "year": "2015",
+        "ext_heat_days": "20",
+        "ed_rate_35": "32.7"
+    },
+    "71": {
+        "": "71",
+        "key": "71",
+        "county": "La Paz",
+        "year": "2016",
+        "ext_heat_days": "27",
+        "ed_rate_35": "30.5"
+    },
+    "72": {
+        "": "72",
+        "key": "72",
+        "county": "La Paz",
+        "year": "2017",
+        "ext_heat_days": "22",
+        "ed_rate_35": "23.4"
+    },
+    "73": {
+        "": "73",
+        "key": "73",
+        "county": "La Paz",
+        "year": "2018",
+        "ext_heat_days": "19",
+        "ed_rate_35": "24.2"
+    },
+    "74": {
+        "": "74",
+        "key": "74",
+        "county": "La Paz",
+        "year": "2019",
+        "ext_heat_days": "22",
+        "ed_rate_35": "45.6"
+    },
+    "75": {
+        "": "75",
+        "key": "75",
+        "county": "La Paz",
+        "year": "2020",
+        "ext_heat_days": "39",
+        "ed_rate_35": "45.8"
+    },
+    "76": {
+        "": "76",
+        "key": "76",
+        "county": "La Paz",
+        "year": "2021",
+        "ext_heat_days": "23",
+        "ed_rate_35": "44.2"
+    },
+    "77": {
+        "": "77",
+        "key": "77",
+        "county": "Maricopa",
+        "year": "2011",
+        "ext_heat_days": "28",
+        "ed_rate_35": "25.8"
+    },
+    "78": {
+        "": "78",
+        "key": "78",
+        "county": "Maricopa",
+        "year": "2012",
+        "ext_heat_days": "21",
+        "ed_rate_35": "25.4"
+    },
+    "79": {
+        "": "79",
+        "key": "79",
+        "county": "Maricopa",
+        "year": "2013",
+        "ext_heat_days": "13",
+        "ed_rate_35": "24.4"
+    },
+    "80": {
+        "": "80",
+        "key": "80",
+        "county": "Maricopa",
+        "year": "2014",
+        "ext_heat_days": "2",
+        "ed_rate_35": "24.3"
+    },
+    "81": {
+        "": "81",
+        "key": "81",
+        "county": "Maricopa",
+        "year": "2015",
+        "ext_heat_days": "16",
+        "ed_rate_35": "25.3"
+    },
+    "82": {
+        "": "82",
+        "key": "82",
+        "county": "Maricopa",
+        "year": "2016",
+        "ext_heat_days": "23",
+        "ed_rate_35": "25.9"
+    },
+    "83": {
+        "": "83",
+        "key": "83",
+        "county": "Maricopa",
+        "year": "2017",
+        "ext_heat_days": "19",
+        "ed_rate_35": "26.1"
+    },
+    "84": {
+        "": "84",
+        "key": "84",
+        "county": "Maricopa",
+        "year": "2018",
+        "ext_heat_days": "19",
+        "ed_rate_35": "23.6"
+    },
+    "85": {
+        "": "85",
+        "key": "85",
+        "county": "Maricopa",
+        "year": "2019",
+        "ext_heat_days": "26",
+        "ed_rate_35": "24.0"
+    },
+    "86": {
+        "": "86",
+        "key": "86",
+        "county": "Maricopa",
+        "year": "2020",
+        "ext_heat_days": "45",
+        "ed_rate_35": "20.6"
+    },
+    "87": {
+        "": "87",
+        "key": "87",
+        "county": "Maricopa",
+        "year": "2021",
+        "ext_heat_days": "22",
+        "ed_rate_35": "21.0"
+    },
+    "88": {
+        "": "88",
+        "key": "88",
+        "county": "Mohave",
+        "year": "2011",
+        "ext_heat_days": "18",
+        "ed_rate_35": "32.1"
+    },
+    "89": {
+        "": "89",
+        "key": "89",
+        "county": "Mohave",
+        "year": "2012",
+        "ext_heat_days": "14",
+        "ed_rate_35": "33.4"
+    },
+    "90": {
+        "": "90",
+        "key": "90",
+        "county": "Mohave",
+        "year": "2013",
+        "ext_heat_days": "18",
+        "ed_rate_35": "31.7"
+    },
+    "91": {
+        "": "91",
+        "key": "91",
+        "county": "Mohave",
+        "year": "2014",
+        "ext_heat_days": "4",
+        "ed_rate_35": "30.3"
+    },
+    "92": {
+        "": "92",
+        "key": "92",
+        "county": "Mohave",
+        "year": "2015",
+        "ext_heat_days": "15",
+        "ed_rate_35": "34.5"
+    },
+    "93": {
+        "": "93",
+        "key": "93",
+        "county": "Mohave",
+        "year": "2016",
+        "ext_heat_days": "25",
+        "ed_rate_35": "34.1"
+    },
+    "94": {
+        "": "94",
+        "key": "94",
+        "county": "Mohave",
+        "year": "2017",
+        "ext_heat_days": "22",
+        "ed_rate_35": "33.4"
+    },
+    "95": {
+        "": "95",
+        "key": "95",
+        "county": "Mohave",
+        "year": "2018",
+        "ext_heat_days": "22",
+        "ed_rate_35": "39.1"
+    },
+    "96": {
+        "": "96",
+        "key": "96",
+        "county": "Mohave",
+        "year": "2019",
+        "ext_heat_days": "22",
+        "ed_rate_35": "38.9"
+    },
+    "97": {
+        "": "97",
+        "key": "97",
+        "county": "Mohave",
+        "year": "2020",
+        "ext_heat_days": "36",
+        "ed_rate_35": "38.2"
+    },
+    "98": {
+        "": "98",
+        "key": "98",
+        "county": "Mohave",
+        "year": "2021",
+        "ext_heat_days": "26",
+        "ed_rate_35": "34.6"
+    },
+    "99": {
+        "": "99",
+        "key": "99",
+        "county": "Navajo",
+        "year": "2011",
+        "ext_heat_days": "21",
+        "ed_rate_35": "28.2"
+    },
+    "100": {
+        "": "100",
+        "key": "100",
+        "county": "Navajo",
+        "year": "2012",
+        "ext_heat_days": "20",
+        "ed_rate_35": "34.9"
+    },
+    "101": {
+        "": "101",
+        "key": "101",
+        "county": "Navajo",
+        "year": "2013",
+        "ext_heat_days": "16",
+        "ed_rate_35": "32.2"
+    },
+    "102": {
+        "": "102",
+        "key": "102",
+        "county": "Navajo",
+        "year": "2014",
+        "ext_heat_days": "3",
+        "ed_rate_35": "30.8"
+    },
+    "103": {
+        "": "103",
+        "key": "103",
+        "county": "Navajo",
+        "year": "2015",
+        "ext_heat_days": "19",
+        "ed_rate_35": "32.2"
+    },
+    "104": {
+        "": "104",
+        "key": "104",
+        "county": "Navajo",
+        "year": "2016",
+        "ext_heat_days": "20",
+        "ed_rate_35": "33.1"
+    },
+    "105": {
+        "": "105",
+        "key": "105",
+        "county": "Navajo",
+        "year": "2017",
+        "ext_heat_days": "15",
+        "ed_rate_35": "34.0"
+    },
+    "106": {
+        "": "106",
+        "key": "106",
+        "county": "Navajo",
+        "year": "2018",
+        "ext_heat_days": "29",
+        "ed_rate_35": "28.9"
+    },
+    "107": {
+        "": "107",
+        "key": "107",
+        "county": "Navajo",
+        "year": "2019",
+        "ext_heat_days": "27",
+        "ed_rate_35": "29.6"
+    },
+    "108": {
+        "": "108",
+        "key": "108",
+        "county": "Navajo",
+        "year": "2020",
+        "ext_heat_days": "41",
+        "ed_rate_35": "31.1"
+    },
+    "109": {
+        "": "109",
+        "key": "109",
+        "county": "Navajo",
+        "year": "2021",
+        "ext_heat_days": "21",
+        "ed_rate_35": "29.0"
+    },
+    "110": {
+        "": "110",
+        "key": "110",
+        "county": "Pima",
+        "year": "2011",
+        "ext_heat_days": "32",
+        "ed_rate_35": "26.6"
+    },
+    "111": {
+        "": "111",
+        "key": "111",
+        "county": "Pima",
+        "year": "2012",
+        "ext_heat_days": "27",
+        "ed_rate_35": "24.8"
+    },
+    "112": {
+        "": "112",
+        "key": "112",
+        "county": "Pima",
+        "year": "2013",
+        "ext_heat_days": "14",
+        "ed_rate_35": "23.4"
+    },
+    "113": {
+        "": "113",
+        "key": "113",
+        "county": "Pima",
+        "year": "2014",
+        "ext_heat_days": "4",
+        "ed_rate_35": "22.4"
+    },
+    "114": {
+        "": "114",
+        "key": "114",
+        "county": "Pima",
+        "year": "2015",
+        "ext_heat_days": "13",
+        "ed_rate_35": "25.0"
+    },
+    "115": {
+        "": "115",
+        "key": "115",
+        "county": "Pima",
+        "year": "2016",
+        "ext_heat_days": "21",
+        "ed_rate_35": "25.7"
+    },
+    "116": {
+        "": "116",
+        "key": "116",
+        "county": "Pima",
+        "year": "2017",
+        "ext_heat_days": "17",
+        "ed_rate_35": "24.8"
+    },
+    "117": {
+        "": "117",
+        "key": "117",
+        "county": "Pima",
+        "year": "2018",
+        "ext_heat_days": "17",
+        "ed_rate_35": "26.0"
+    },
+    "118": {
+        "": "118",
+        "key": "118",
+        "county": "Pima",
+        "year": "2019",
+        "ext_heat_days": "28",
+        "ed_rate_35": "25.1"
+    },
+    "119": {
+        "": "119",
+        "key": "119",
+        "county": "Pima",
+        "year": "2020",
+        "ext_heat_days": "50",
+        "ed_rate_35": "20.4"
+    },
+    "120": {
+        "": "120",
+        "key": "120",
+        "county": "Pima",
+        "year": "2021",
+        "ext_heat_days": "16",
+        "ed_rate_35": "21.7"
+    },
+    "121": {
+        "": "121",
+        "key": "121",
+        "county": "Pinal",
+        "year": "2011",
+        "ext_heat_days": "31",
+        "ed_rate_35": "28.4"
+    },
+    "122": {
+        "": "122",
+        "key": "122",
+        "county": "Pinal",
+        "year": "2012",
+        "ext_heat_days": "24",
+        "ed_rate_35": "27.5"
+    },
+    "123": {
+        "": "123",
+        "key": "123",
+        "county": "Pinal",
+        "year": "2013",
+        "ext_heat_days": "13",
+        "ed_rate_35": "25.8"
+    },
+    "124": {
+        "": "124",
+        "key": "124",
+        "county": "Pinal",
+        "year": "2014",
+        "ext_heat_days": "2",
+        "ed_rate_35": "25.9"
+    },
+    "125": {
+        "": "125",
+        "key": "125",
+        "county": "Pinal",
+        "year": "2015",
+        "ext_heat_days": "15",
+        "ed_rate_35": "29.2"
+    },
+    "126": {
+        "": "126",
+        "key": "126",
+        "county": "Pinal",
+        "year": "2016",
+        "ext_heat_days": "26",
+        "ed_rate_35": "27.4"
+    },
+    "127": {
+        "": "127",
+        "key": "127",
+        "county": "Pinal",
+        "year": "2017",
+        "ext_heat_days": "16",
+        "ed_rate_35": "27.3"
+    },
+    "128": {
+        "": "128",
+        "key": "128",
+        "county": "Pinal",
+        "year": "2018",
+        "ext_heat_days": "21",
+        "ed_rate_35": "27.7"
+    },
+    "129": {
+        "": "129",
+        "key": "129",
+        "county": "Pinal",
+        "year": "2019",
+        "ext_heat_days": "26",
+        "ed_rate_35": "27.8"
+    },
+    "130": {
+        "": "130",
+        "key": "130",
+        "county": "Pinal",
+        "year": "2020",
+        "ext_heat_days": "49",
+        "ed_rate_35": "24.3"
+    },
+    "131": {
+        "": "131",
+        "key": "131",
+        "county": "Pinal",
+        "year": "2021",
+        "ext_heat_days": "21",
+        "ed_rate_35": "25.8"
+    },
+    "132": {
+        "": "132",
+        "key": "132",
+        "county": "Santa Cruz",
+        "year": "2011",
+        "ext_heat_days": "37",
+        "ed_rate_35": "22.8"
+    },
+    "133": {
+        "": "133",
+        "key": "133",
+        "county": "Santa Cruz",
+        "year": "2012",
+        "ext_heat_days": "29",
+        "ed_rate_35": "25.6"
+    },
+    "134": {
+        "": "134",
+        "key": "134",
+        "county": "Santa Cruz",
+        "year": "2013",
+        "ext_heat_days": "17",
+        "ed_rate_35": "26.9"
+    },
+    "135": {
+        "": "135",
+        "key": "135",
+        "county": "Santa Cruz",
+        "year": "2014",
+        "ext_heat_days": "6",
+        "ed_rate_35": "25.3"
+    },
+    "136": {
+        "": "136",
+        "key": "136",
+        "county": "Santa Cruz",
+        "year": "2015",
+        "ext_heat_days": "12",
+        "ed_rate_35": "26.3"
+    },
+    "137": {
+        "": "137",
+        "key": "137",
+        "county": "Santa Cruz",
+        "year": "2016",
+        "ext_heat_days": "21",
+        "ed_rate_35": "24.9"
+    },
+    "138": {
+        "": "138",
+        "key": "138",
+        "county": "Santa Cruz",
+        "year": "2017",
+        "ext_heat_days": "15",
+        "ed_rate_35": "23.9"
+    },
+    "139": {
+        "": "139",
+        "key": "139",
+        "county": "Santa Cruz",
+        "year": "2018",
+        "ext_heat_days": "17",
+        "ed_rate_35": "26.7"
+    },
+    "140": {
+        "": "140",
+        "key": "140",
+        "county": "Santa Cruz",
+        "year": "2019",
+        "ext_heat_days": "24",
+        "ed_rate_35": "23.7"
+    },
+    "141": {
+        "": "141",
+        "key": "141",
+        "county": "Santa Cruz",
+        "year": "2020",
+        "ext_heat_days": "33",
+        "ed_rate_35": "26.0"
+    },
+    "142": {
+        "": "142",
+        "key": "142",
+        "county": "Santa Cruz",
+        "year": "2021",
+        "ext_heat_days": "14",
+        "ed_rate_35": "22.8"
+    },
+    "143": {
+        "": "143",
+        "key": "143",
+        "county": "Yavapai",
+        "year": "2011",
+        "ext_heat_days": "24",
+        "ed_rate_35": "25.4"
+    },
+    "144": {
+        "": "144",
+        "key": "144",
+        "county": "Yavapai",
+        "year": "2012",
+        "ext_heat_days": "27",
+        "ed_rate_35": "29.1"
+    },
+    "145": {
+        "": "145",
+        "key": "145",
+        "county": "Yavapai",
+        "year": "2013",
+        "ext_heat_days": "19",
+        "ed_rate_35": "25.2"
+    },
+    "146": {
+        "": "146",
+        "key": "146",
+        "county": "Yavapai",
+        "year": "2014",
+        "ext_heat_days": "3",
+        "ed_rate_35": "26.1"
+    },
+    "147": {
+        "": "147",
+        "key": "147",
+        "county": "Yavapai",
+        "year": "2015",
+        "ext_heat_days": "17",
+        "ed_rate_35": "27.7"
+    },
+    "148": {
+        "": "148",
+        "key": "148",
+        "county": "Yavapai",
+        "year": "2016",
+        "ext_heat_days": "22",
+        "ed_rate_35": "27.6"
+    },
+    "149": {
+        "": "149",
+        "key": "149",
+        "county": "Yavapai",
+        "year": "2017",
+        "ext_heat_days": "16",
+        "ed_rate_35": "27.7"
+    },
+    "150": {
+        "": "150",
+        "key": "150",
+        "county": "Yavapai",
+        "year": "2018",
+        "ext_heat_days": "19",
+        "ed_rate_35": "27.8"
+    },
+    "151": {
+        "": "151",
+        "key": "151",
+        "county": "Yavapai",
+        "year": "2019",
+        "ext_heat_days": "26",
+        "ed_rate_35": "29.3"
+    },
+    "152": {
+        "": "152",
+        "key": "152",
+        "county": "Yavapai",
+        "year": "2020",
+        "ext_heat_days": "35",
+        "ed_rate_35": "24.5"
+    },
+    "153": {
+        "": "153",
+        "key": "153",
+        "county": "Yavapai",
+        "year": "2021",
+        "ext_heat_days": "22",
+        "ed_rate_35": "24.5"
+    },
+    "154": {
+        "": "154",
+        "key": "154",
+        "county": "Yuma",
+        "year": "2011",
+        "ext_heat_days": "25",
+        "ed_rate_35": "30.4"
+    },
+    "155": {
+        "": "155",
+        "key": "155",
+        "county": "Yuma",
+        "year": "2012",
+        "ext_heat_days": "17",
+        "ed_rate_35": "28.4"
+    },
+    "156": {
+        "": "156",
+        "key": "156",
+        "county": "Yuma",
+        "year": "2013",
+        "ext_heat_days": "12",
+        "ed_rate_35": "27.9"
+    },
+    "157": {
+        "": "157",
+        "key": "157",
+        "county": "Yuma",
+        "year": "2014",
+        "ext_heat_days": "6",
+        "ed_rate_35": "32.0"
+    },
+    "158": {
+        "": "158",
+        "key": "158",
+        "county": "Yuma",
+        "year": "2015",
+        "ext_heat_days": "22",
+        "ed_rate_35": "35.1"
+    },
+    "159": {
+        "": "159",
+        "key": "159",
+        "county": "Yuma",
+        "year": "2016",
+        "ext_heat_days": "24",
+        "ed_rate_35": "31.7"
+    },
+    "160": {
+        "": "160",
+        "key": "160",
+        "county": "Yuma",
+        "year": "2017",
+        "ext_heat_days": "21",
+        "ed_rate_35": "34.4"
+    },
+    "161": {
+        "": "161",
+        "key": "161",
+        "county": "Yuma",
+        "year": "2018",
+        "ext_heat_days": "19",
+        "ed_rate_35": "34.3"
+    },
+    "162": {
+        "": "162",
+        "key": "162",
+        "county": "Yuma",
+        "year": "2019",
+        "ext_heat_days": "22",
+        "ed_rate_35": "28.0"
+    },
+    "163": {
+        "": "163",
+        "key": "163",
+        "county": "Yuma",
+        "year": "2020",
+        "ext_heat_days": "36",
+        "ed_rate_35": "29.8"
+    },
+    "164": {
+        "": "164",
+        "key": "164",
+        "county": "Yuma",
+        "year": "2021",
+        "ext_heat_days": "24",
+        "ed_rate_35": "28.8"
+    }
+}
