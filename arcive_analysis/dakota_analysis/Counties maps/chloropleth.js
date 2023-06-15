@@ -1,6 +1,5 @@
 // Creating the map object
-let myMap = L.map("map", 
-{
+let myMap = L.map("map", {
   center: [34.4537, -112.0693],
   zoom: 7
 });
@@ -11,29 +10,30 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(myMap);
 
 // Load the GeoJSON data.
-let geoData = '/link to geojson of county lines and HRI data/'
+let geoData = 'https://raw.githubusercontent.com/Abby-Boulter/Project_3/main/arcive_analysis/dakota_analysis/Counties%20maps/arizona-with-county-boundaries_1085.geojson'
+
 
 let geojson;
 
 //Get data with D3
 d3.json(geoData).then(function(data){
 
-    //Create Chloropleth layer
-    geojson = L.chloropleth(data, {
+    //Create choropleth layer
+    geojson = L.choropleth(data, {
 
-        //Define value for chloropleth
-
+        //Define value for choropleth
+        valueProperty: "XHD_2021",
         //Color scale based on # of values
-        scale: [],
+        scale: ["#ffffcc", "#b10026"],
         
         //Number of breaks in step range
-        //steps: ,
+        steps: 10,
 
     // q for quartile
     mode: "q",
     style: {
       // Border color
-      color: "#000000",
+      color: "#fff",
       weight: 1,
       fillOpacity: 0.8
     },
