@@ -15,15 +15,11 @@ Within the United States, 700 heat-related deaths occur yearly. These deaths are
 [site](url)
 
 ## Data Sources
-Arizona Department of Health Services. Arizona Environmental Public Health Tracking Network. (n.d.) Web. Accessed: June 01, 2023. www.azdhs.gov/epht.
-
 Centers for Disease Control and Prevention. National Environmental Public Health Tracking Network. (n.d.) Web API. www.cdc.gov/ephtracking. 
 
 ## Key Learnings
-* How to communicate and work efficiently within a team.
-
-## Future Improvements
-Add 
+* How to communicate and work efficiently within a team
+* Not overwhelming selves with too much information
 
 ## Technologies Used:
 Python
