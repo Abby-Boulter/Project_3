@@ -44,7 +44,7 @@ d3.json(geoData).then(function(data){
         layer.bindPopup("<strong>" + feature.properties.NAME + "</strong><br /><br />Estimated employed population with children age 6-17: " +
           feature.properties.DP03_16E + "<br /><br />Estimated Total Income and Benefits for Families: $" + feature.properties.DP03_75E);
       }
-    }).addTo(myMap);
+    });
 
       // Set up the legend.
   let legend = L.control({ position: "bottomright" });
@@ -55,7 +55,7 @@ d3.json(geoData).then(function(data){
     let labels = [];
 
       // Add the minimum and maximum.
-      let legendInfo = "<h1>RELABEL AS NEEDED</h1>" +
+      let legendInfo = "<h1>Extreme Heat Days</h1>" +
       "<div class=\"labels\">" +
         "<div class=\"min\">" + limits[0] + "</div>" +
         "<div class=\"max\">" + limits[limits.length - 1] + "</div>" +
