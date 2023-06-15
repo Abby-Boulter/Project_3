@@ -1,4 +1,4 @@
-id,County,Year,ext_heat_days
+key,county,year,ext_heat_days
 0,Apache,2011,19
 1,Apache,2012,19
 2,Apache,2013,18
