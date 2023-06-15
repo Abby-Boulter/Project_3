@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Arizona HRI</title>
+  <title>AZ-HEAT Dashboard</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -19,40 +19,55 @@
       <div class="col-md-12 jumbotron text-center">
         <h1>Arizona Heat Realted Illnesses</h1>
         <p>During the Arizona summer, heat impacts health and well-being. Heat-related illness (HRI) includes heat cramps, heat exhaustion, and heat stroke. Within the United States, 700 heat-related deaths occur yearly. These deaths are preventable, and we can decrease these numbers by spreading awareness. And while there is no Federal mandate on reporting heat-related illness, it is up to state and local health departments to monitor.</p>
-  
-  
-        <!-- Create Paths with the buttons unique Id to then fill into flask  -->
+        <br></br>
+        <br> Indicator shown: Average annual age-adjusted emergency deparment (ED) rate due to heart attack per 10,000 population aged 35 years and older. </br>
+        <br></br>
+        <!-- Image  -->
+
+        <h2 style="text-align: upperleft;">
+          <img class="img-rounded" data-delta="27"  src="/images/saguaro.jpg"  width="200" height="200"><br>
+<!-- All ED Data Bar Graph -->
+<body>
+  <div class="container">
+  <h3>ED Visit Over Last 10 Years</h3>
+  <div id="graph"></div>
+  <script src="../static/js/alled.js"></script>
+  <script src="../static/js/plot.js"></script>
+  <script type="text/javascript" src="plot.js"></script>
+</body>
+       
+  <!-- BarPlot -->
       <div class="container">
         <h2>ED Visits for 2021 all counties</h2>
-       
         <body>
           <div id="plot1"></div>
-          <script src="data.js"></script>
-          <script src="./static/barplot.js"></script>
+          <script src="../static/js/data.js"></script>
+          <script src="../static/js/barplots.js"></script>
 
-          <script type="text/javascript" src="plot1.js"></script>
+          <script type="text/javascript" src=barplots.js"></script>
       </body>
-
+<!-- Line Plot -->
       <div class="container">
         <h2>Gila ED visits over time</h2>
       <body>
         <div id="plot2"></div>
-        <script src="data.js"></script>
-        <script src="./static/linePlot.js"></script>
-        <script type="text/javascript" src="plot2.js"></script>
+        <script src="../static/js/data.js"></script>
+        <script src="../static/js/linePlot.js"></script>
+        <script type="text/javascript" src="linePlot.js"></script>
     </body>
-      
-    {% comment %} <div class="container">
+
+      <!-- Graph
+     <div class="container">
       <h2>Gila ED visits over time</h2>
     <body>
       <div id="plot3"></div>
-      <script src="data.js"></script>
-      <script src="./static/otherPlot.js"></script>
-      <script type="text/javascript" src="plot3.js"></script>
-  </body> {% endcomment %}
+      <script src="../static/js/data.js"></script>
+      <script src="../static/js/otherPlot.js"></script>
+      <script type="text/javascript" src="otherPlot.js"></script>
+  </body> -->
 
-       
-           <!-- The image that is on our Webpage -->
+
+        
 
 
 
