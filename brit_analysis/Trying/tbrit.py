@@ -18,31 +18,44 @@ ed_visit_35 = Base.classes.ed_visit_35
 
 
 
-app = Flask(__name__, static_url_path='',
-            static_folder='static',
-            template_folder='template')
+
+
+
+df = data.js().query("city=Arizona'")
+fig = px.line(df, x="year", y="rate", color='county')
+fig.show()
+
+
+
+
+app.layout = html.Div([
+  html.H4('ED Visits '),
+  dcc.Graph(id="graph"),
+  dcc.Checklist(
+      id="checklist",
+      options=["Counties, Arizona, Pima"],
+      value=["visits"],
+      inline=True
+  ),
+])
+
+app = Flask(__name__)
 app.config["DEBUG"] = True
 
 cors = CORS(app)
 
-@app.route("/ed") 
-def dashboard():
-    session = Session(engine)
-    
+@app.callback(
+  Output("graph", "figure"), 
+  Input("checklist", "value"))
+def update_line_chart(counties):
+  df = data.js() #
+  mask = df.county.isin(counties)
+  fig = px.line(df[mask], 
+      x="year", y="rate", color='county')
+  return fig
 
-    results_ed_visit_35 = session.query(ed_visit_35.county, ed_visit_35.year, ed_visit_35.ed_rate_35).order_by(ed_visit_35.year.asc()).all()
 
-
-    all_ed_35 = []
-    for county, year, ed_rate_35 in results_ed_visit_35:
-        ed_dict = {}
-        ed_dict["county"] = county
-        ed_dict["year"] = year
-        ed_dict["value"] = ed_rate_35
-        all_ed_35.append(ed_dict)
-
-    session.close()
-    return ("plot.js")
+app.run_server(debug=True)
     
 
 
