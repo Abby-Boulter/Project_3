@@ -1,31 +1,31 @@
 // see data in console 
 // console.log(data);
 
-// // return only Apache data
+// // return only Gila data
 
 ////////////////////////////////
 // Create a custom filtering function
 function selector(bob) {
-  return bob.county == 'Apache';
+  return bob.county == 'Gila';
 }
 
 // filter() uses the custom function as its argument
-let dataApache = data.filter(selector);
+let dataGila = data.filter(selector);
 
 // Print to console
-console.log(dataApache);
+console.log(dataGila);
 
 //////////////////////////////////////////////
 
 // County names
-county = dataApache.map(function (row){
+county = dataGila.map(function (row){
   return row.county
 });
 
 // 
 let trace2 = {
-    x: dataApache.map(row => row.year),
-    y: dataApache.map(row => row.value),
+    x: dataGila.map(row => row.year),
+    y: dataGila.map(row => row.value),
     type: "line"
   
   };
@@ -35,7 +35,7 @@ let traceData2 = [trace2];
 
 // Apply the group barmode to the layout
 let layout2 = {
-  title: "ED Rates for Apache County ",
+  title: "ED Rates for Gila County ",
   x: "year",
   y:"value of ed rates"
 };
